@@ -1,0 +1,8 @@
+.button {
+  background: lighten($teal, 10%);
+  border: none;
+  border-bottom: .3rem solid $teal;
+  color: white;
+  font-weight: 300;
+  padding: $s-size;
+}

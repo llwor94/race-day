@@ -1,0 +1,19 @@
+.search {
+  background: lighten($dark, 10%);
+  padding: $s-size;
+}
+
+.name-search {
+  display: flex;
+  padding: $m-size;
+}
+
+.name-search__input {
+  background: white;
+  border: .1rem solid $teal;
+  border-bottom: .3rem solid darken($teal, 10%);
+  color: $dark;
+  flex-grow: 1;
+  margin-right: $s-size;
+  padding: $s-size;
+}

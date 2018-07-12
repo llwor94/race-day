@@ -1,0 +1,28 @@
+.footer-container {
+  background: $dark;
+  color: white;
+  height: 6rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.footer {
+  padding: $m-size 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.small-link {
+  color: white;
+  font-size: $s-size;
+  text-decoration: none;
+}
+
+.large-link {
+  color: white;
+  font-size: 2rem;
+  text-decoration: none;
+}
