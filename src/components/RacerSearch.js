@@ -1,4 +1,5 @@
 import React from 'react';
+import { TypeAhead } from 'react-power-select';
 
 export default class RacerSearch extends React.Component {
   constructor(props) {
@@ -13,13 +14,14 @@ export default class RacerSearch extends React.Component {
     const racers = this.props.signedUpRacers.map((item) => item.name);
     this.setState({ racers: racers })
   }
-   
-  handleChange = (e) => {
-    this.setState({ racer : e.target.value });
+  
+  handleChange = (name) => {
+    this.setState({ racer : name.option });
   }
 
   handleSearchRacer = (e) => {
     e.preventDefault();
+    console.log(this.state.racer)
     this.props.handleSearchRacer(this.state.racer)
   }
 
@@ -27,11 +29,11 @@ export default class RacerSearch extends React.Component {
     return (
       <div className= "search">
         <form className="name-search" onSubmit={this.handleSearchRacer}>
-          <Typeahead 
+          <TypeAhead 
             className="name-search__input" 
-            options={this.racers}
+            options={this.state.racers}
+            selected={this.state.racer}
             placeholder="Search for racer by name" 
-            value={this.state.value} 
             onChange={this.handleChange} />
           <button className="button"> Search </button>
         </form>

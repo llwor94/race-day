@@ -14,9 +14,9 @@ export default class RacerProfile extends React.Component {
           <div className="profile-header">
             <img src={blankProfile}/>
             <div className="racer-info">
-              <h1>{this.props.thisRacer}</h1>
-              <p>Age: 24</p>
-              <p>Distance: 1 Mile</p>
+              <h1>{this.props.thisRacer.name}</h1>
+              <p>Age: {this.props.thisRacer.age}</p>
+              <p>Distance: {this.props.thisRacer.distance} Mile</p>
             </div>
           </div>
           <div>
