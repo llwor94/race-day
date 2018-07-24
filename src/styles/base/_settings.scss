@@ -5,3 +5,15 @@ $s-size: 1.2rem;
 $m-size: 1.6rem;
 $l-size: 3.2rem;
 $xl-size: 4.8rem;
+
+@mixin centered {
+  margin: 0 auto;
+  max-width: 70rem;
+}
+
+@mixin flex($js: none, $al: none, $dir: row) {
+  display: flex;
+  justify-content: $js;
+  align-items: $al;
+  flex-direction: $dir;
+}

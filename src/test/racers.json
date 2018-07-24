@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Lauren Worthington",
+    "age": 24,
+    "distance": 1,
+    "image": "./lauren.png"
+  },
+  {
+    "name": "Kanye West",
+    "age": 41,
+    "distance": 2,
+    "image": "./lauren.png"
+  },
+  {
+    "name": "Kim Kardashian",
+    "age": 37,
+    "distance": 1,
+    "image": "./lauren.png"
+  },
+  {
+    "name": "Lisa Worthington",
+    "age": 50,
+    "distance": 3,
+    "image": "./lauren.png"
+  },
+  {
+    "name": "Ryan Worthington",
+    "age": 52,
+    "distance": 1,
+    "image": "./lauren.png"
+  }
+]

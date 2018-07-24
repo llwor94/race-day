@@ -1,8 +1,11 @@
-.button {
+@mixin button($size: 1rem, $pt: 0, $ps: 0) {
   background: lighten($teal, 10%);
-  border: none;
-  border-bottom: .3rem solid $teal;
+  border: .3rem solid white;
+  // border-radius: .1rem;
   color: white;
   font-weight: 300;
-  padding: $s-size;
+  font-size: $size;
+  padding: $pt $ps;
+  @include flex(center, center);
+
 }

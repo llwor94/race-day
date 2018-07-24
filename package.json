@@ -6,22 +6,29 @@
     "dev-server": "webpack-dev-server"
   },
   "dependencies": {
+    "ajv": "^6.0.0",
+    "axios": "^0.18.0",
     "babel-cli": "6.24.1",
     "babel-core": "6.25.0",
     "babel-loader": "7.1.1",
     "babel-plugin-transform-class-properties": "6.24.1",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
+    "bootstrap": "^4.1.2",
     "css-loader": "^1.0.0",
     "file-loader": "^1.1.11",
+    "jquery": "^1.9.1",
     "node-sass": "^4.9.2",
     "react": "^16.4.1",
+    "react-autocomplete": "^1.8.1",
+    "react-bootstrap": "^0.32.1",
     "react-dom": "^16.4.1",
     "react-native-searchable-dropdown": "^1.0.4",
+    "react-typeahead": "^2.0.0-alpha.8",
     "sass-loader": "7.0.3",
     "style-loader": "0.21.0",
     "url-loader": "^1.0.1",
-    "webpack": "3.1.0",
+    "webpack": "^3.1.0",
     "webpack-dev-server": "2.5.1"
   }
 }

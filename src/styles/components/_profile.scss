@@ -1,0 +1,38 @@
+.racer-profile {
+  @include centered;
+  @include flex(center, center, column);
+  color: white;
+
+  p {
+    font-size: 1.7rem;
+    text-align: center;
+  }
+
+  .profile-header {
+    @include flex(space-between, center);
+    padding: $l-size;
+
+    img {
+      border-radius: 50%;
+      width: 35%;
+    }
+
+    .racer-info {
+      line-height: $xl-size;
+
+      h1 {
+        text-align: right;
+        font-size: $xl-size;
+      }
+      p {
+        text-align: right;
+        font-size: $l-size;
+      }
+    }
+  }
+  .button {
+    @include button(2rem, 1rem, 2rem);
+    margin: 2rem auto;
+  }
+  
+}
